@@ -30,10 +30,10 @@ USAGE:
     pytest test_loginazure.py --browser chromium --headed
 AFTER RUNS:
     deactivate
-    rm -rf .venv .pytest_cache __pycache__  # specified in .gitignore
+    rm -rf __pycache__ .pytest_cache .ruff_cache .venv  # specified in .gitignore
 """
 
-__last_change__ = "25-11-07 v002 + login to azure :test_loginazure.py"
+__last_change__ = "25-11-07 v003 + .ruff_cache :test_loginazure.py"
 __status__ = "Login confirmation not working."
 
 #import re
